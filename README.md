@@ -30,7 +30,7 @@ This is Flask restful application which exposes player.csv file to rest api.
 
 ## Deployment:
 I deployed it to ec2 and create for this project full AWS environment using ``ansible`` as deployment tool. 
-I used another repo as deployment [repo](https://github.com/shaharkozi/ansible) and elaborate more the on how I deploy it to AWS.
+I used another repo as deployment [repo](https://github.com/shaharkozi/ansible) and elaborated more there on how I deployed it to AWS.
 
 ## Assumptions:
 1. In the instructions write duplicate endpoint, the same one for players and player. I made assumption which it by mistake and split it.
