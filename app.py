@@ -24,7 +24,6 @@ def create_app() -> Flask:
 
 
 if __name__ == "__main__":
-    os.environ["ENV"] = "prod"
     config = get_config_by_env(os.getenv("ENV"))
     application = create_app()
     application.config.from_object(config)
